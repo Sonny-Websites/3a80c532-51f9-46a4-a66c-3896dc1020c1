@@ -7,23 +7,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') || '';
 ---
 
 <BaseLayout
-  title="About Us"
-  description="Learn more about our company, mission, and team. We are dedicated to providing excellent services and customer satisfaction."
-  ogTitle="About Our Company"
-  ogDescription="Learn more about our company, mission, and values."
+  title="TradePath — Connect to work opportunities"
+  description="Learn about TradePath and how we connect students and unemployed adults to paid opportunities."
+  ogTitle="TradePath — Connect to work opportunities"
+  ogDescription="Learn how TradePath helps connect people to paid opportunities nationwide."
 >
   <Header current="about" />
   <section class="about" role="main" aria-labelledby="aboutHeading">
-    <h1 id="aboutHeading">About Us</h1>
-    <div class="about-content">
-      <div class="about-image">
-        <img src="https://via.placeholder.com/400x300" alt="Company team working together" loading="lazy" />
-      </div>
-      <div class="about-text">
-        <p>We are a company dedicated to providing excellent services. Our team is passionate about innovation and customer satisfaction.</p>
-        <p>Learn more about our mission and values. With over a decade of experience in our industry, we have built a reputation for delivering exceptional quality and exceeding customer expectations.</p>
-        <a href={`${base}/#contact`} class="btn btn-primary" style="display: inline-block; margin-top: 2rem;">Get in Touch</a>
-      </div>
+    <div class="container">
+      <h1 id="aboutHeading">About TradePath</h1>
+      <p>TradePath connects unemployed adults and students to paid opportunities across the country.</p>
+      <p>Our goal is simple: make it easier to find work, earn income, and build long-term stability.</p>
+      <a href={`${base}/#sign-up`} class="btn-solid" style="display: inline-flex; margin-top: 24px;">Sign up</a>
     </div>
   </section>
   <Footer />
